@@ -22,10 +22,9 @@ console.log(result2);   // [ 'RUN!', 'FORREST!' ]
 const arrowMyMap = (array, cb) => {
   let newArray = [];
 
-  for (let i = 0; i < array.length; i++) {
-    let item = array[i];
+  array.forEach(item => {
     newArray.push(cb(item));
-  }
+  });
 
   return newArray;
 }
