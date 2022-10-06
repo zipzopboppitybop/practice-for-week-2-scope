@@ -16,7 +16,7 @@ let result3 = addFive(37); // returns 42
 ***********************************************************************/
 
 // Your code here
-let addFive = (num) => { return num + 5 };
+const addFive = num => num + 5;
 
 let result1 = addFive(0); // returns 5
 console.log(result1)
